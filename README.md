@@ -9,3 +9,4 @@ This is my personalized startpage, designed to be my browser homepage. It includ
 ## Credits
 
 This is heavily inspired by [druxorey/startpage](https://github.com/druxorey/startpage) and [Fxzii/startpage](https://github.com/Fxzzi/startpage).
+Art by [dioknarf](https://x.com/dioknarf).
