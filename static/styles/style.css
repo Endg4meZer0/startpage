@@ -2,16 +2,16 @@
     --primary-background-color: #282A36;
     --secondary-background-color: #44475A;
     --tertiary-background-color: #1E1F29;
-    --primary-foreground-color: #F8F8F2;
-    --secondary-foreground-color: #BD93F9;
+    --primary-foreground-color: #f8f8f2;
+    --secondary-foreground-color: #6febcc;
     --tertiary-foreground-color: #757b99;
     --normal-shadow: #00000040;
-    --selected-shadow: #BD93F940;
+    --selected-shadow: #93f9d740;
 }
 
 @font-face {
     font-family: "Font";
-    src: url("../fonts/hack.ttf");
+    src: url("../fonts/Iosevka-Regular.ttf");
 }
 
 html {
@@ -33,17 +33,15 @@ body {
 
 img {
     height: 600px;
-    width: 350px;
+    width: 410px;
     margin-left: 10em;
     margin-left: 10em;
     border-radius: 10px;
     box-shadow: var(--normal-shadow) 0px 54px 55px;
-    transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
 }
 
 img:hover {
-    height: 610px;
-    width: 360px;
     box-shadow: var(--selected-shadow) 0px 54px 55px;
 }
 
@@ -62,6 +60,10 @@ h1 {
     grid-column: 1/-1;
     text-align: center;
     margin-bottom: 0;
+}
+
+#endg4me {
+    color: var(--secondary-foreground-color);
 }
 
 h2 {
